@@ -9,66 +9,186 @@
 </head>
 <body>
   <div class="main">
+    <!-- NAVBAR SECTION -->
         <header>
-            <div class="navbar">
-                <!-- <img src="d:\VIP TECH CLASS\01_HTML\my_photo.jpg" class="logo"> -->
+            <div class="navbar ">
                     <ul>
                         <li><a href="#home">HOME</a></li>
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#skills">SKILLS</a></li>
-                        <li><a href="#mywork">MY WORK</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                     </ul>
             </div> 
         </header>
-          <div class="image">
+<!-- HOME SECTION -->
+       
+        <div class="image " id="home">
             <img src="d:\VIP TECH CLASS\01_HTML\my_photo.jpg" class="coder_img">
         </div>
         <div class="info">
-           <p>Hi, I'm <span>Shrutika Akolkar.</span>
+           <p>Hi, I'm <span class="highlights">Shrutika Akolkar.</span>
             <h1><span>W</span>EB <span>D</span>ESINGER</h1>
             <p>Web desinger and developer from CHI-PI TECHNOLOGIES.
                 I create <br> websites to do businesses do better online.
             </p>
-            <!-- <a href="#">Hire Me</a> -->
         </div>
+            
+<!-- ABOUT SECTION -->
+<section id="about" class="container about-section">
+    <h2 class="section-title">About Me</h2>
+
+    <p>
+        Hi, I'm <span class="highlights">Shrutika Akolkar</span>,
+        an MCA student at Savitribai Phule Pune University.
+        I am passionate about web development, software engineering,
+        and exploring new technologies.
+    </p>
+
+    <p>
+        I enjoy creating modern, responsive, and user-friendly
+        web applications. I have completed frontend development
+        training and am currently learning JavaScript at
+       <span class="highlights"> CHI-PI Technologies.</span>
+    </p>
+
+    <p>
+        I am gaining hands-on experience in web development
+        and improving my skills by working on practical projects.
+        My goal is to build attractive and accessible websites
+        while continuously learning new technologies.
+    </p>
+</section>
       
-       
+<!-- SKILLS SECTION -->
+<section id="skills" class="container skills-section">
+    <h2 class="section-title">My Skills</h2>
+    <p class="section-subtitle">
+        Technologies and tools I use to build modern web experiences.
+    </p>
 
-        <div class="about">
-            <section id="about">
-                <h1>ABOUT </h1>
-                 <p>Hi, I'm <span class="highlights">Shrutika Akolkar.</span>I am MCA student. In my first year Savitribai phule pune university.
-                I am passoniate about web development,software enginering and exploning new technologies.
-                <span>I enjoy turing does into modern and resposive and user . Web applications write acconrdingly my skills through real-world projects.</span>
-                <span>
-                    I completed frontend development & an currently asking javascript internat CHI-PI technologies.
-                </span>
-                <span>Where, I am gaining hands on experience about web-developemnt</span>
-            </p>
-            </section>
-        </div>
-        <div class="skills">
-            <section id="skills">
-                <h1>Skills</h1>
-                <p>PROGRAMMING LANGUAGES</p>
-                <button>C</button>
-                <button>Javascript</button>
-                <button>Python</button>
-                <p>WEB DEVELOPMENT</p>
-                <button>HTML</button>
-                <button>CSS</button>
-                <button>Javascript</button>
-
-            </section>
-        </div>
- <div class="icon">
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+    <div class="skill-category">
+        <h3>Programming Languages</h3>
+        <div class="btn-container">
+            <span class="skill-btn">C</span>
+            <span class="skill-btn">JavaScript</span>
+            <span class="skill-btn">Python</span>
         </div>
     </div>
+
+    <div class="skill-category">
+        <h3>Web Development</h3>
+        <div class="btn-container">
+            <span class="skill-btn">HTML5</span>
+            <span class="skill-btn">CSS3</span>
+            <span class="skill-btn">JavaScript</span>
+            <span class="skill-btn">Responsive Design</span>
+        </div>
+    </div>
+
+    <div class="skill-category">
+        <h3>Currently Learning</h3>
+        <div class="btn-container">
+            <span class="skill-btn">Frontend Development</span>
+            <span class="skill-btn">Web Design</span>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="container contact-section">
+    <h2 class="section-title">Get In Touch</h2>
+
+    <p class="section-subtitle">
+        I am looking for opportunities to grow as a web developer.
+        Let's connect and discuss how I can contribute to your team.
+    </p>
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+            <div class="contact-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <h3>Email</h3>
+            <a href="mailto:yourname@gmail.com">
+                shrutika@gmail.com
+            </a>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-icon">
+                <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <h3>Location</h3>
+            <p>Ahilyanagar, Maharashtra, India</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-icon">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/shrutika-akolkar-37609b364"
+               target="_blank" rel="noopener noreferrer">
+                View My Profile
+            </a>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-icon">
+                <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <h3>GitHub</h3>
+            <a href="https://github.com/shrutikaakolkar-56-creator"
+               target="_blank" rel="noopener noreferrer">
+                View My Projects
+            </a>
+        </div>
+
+    </div>
+
+    <div class="resume-container">
+        <p>Interested in my profile?</p>
+        <a href="resume.pdf" class="resume-btn" download>
+            <ion-icon name="download-outline"></ion-icon>
+            Download My Resume
+        </a>
+    </div>
+</section>
+
+<!-- SOCIAL MEDIA & FOOTER -->
+<footer class="social-section">
+    <h3>Let's Connect</h3>
+    <p>Feel free to connect with me on social media.</p>
+
+    <div class="icon">
+        <a href="https://www.linkedin.com/in/shrutika-akolkar-37609b364"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="LinkedIn">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="https://github.com/shrutikaakolkar-56-creator"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="GitHub">
+            <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/shrutika"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+    </div>
+
+    <p class="copyright">
+        &copy; 2026 Shrutika Akolkar. All rights reserved.
+    </p>
+</footer>
+
+        <!-- SOCIAL MEDIA ICONS -->
+ 
+    
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
